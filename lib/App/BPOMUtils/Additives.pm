@@ -49,7 +49,7 @@ sub convert_benzoate_unit {
     Physics::Unit::InitUnit(
         ['ppm'], '1 mg/kg',
         ['ppm-as-sodium-benzoate'], '1 mg/kg',
-        ['ppm-as-benzoic-acid'], '0.84740822982444 mg/kg', # benzoic acid's molecular weight = 122.12, sodium benzoate's molecular weight = 144.11
+        ['ppm-as-benzoic-acid'], '1.18006878480183 mg/kg', # benzoic acid's molecular weight = 122.12, sodium benzoate's molecular weight = 144.11
     );
 
     my %args = @_;
