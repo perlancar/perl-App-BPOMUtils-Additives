@@ -50,8 +50,11 @@ sub convert_benzoate_unit {
         ['ppm'], '1 mg/kg',
         ['ppm-as-benzoic-acid'], '1.18006878480183 mg/kg', # benzoic acid's molecular weight = 122.12, sodium benzoate's molecular weight = 144.11
         ['ppm-as-sodium-benzoate'], '1 mg/kg',
+        ['ppm-as-na-benzoate'], '1 mg/kg',
         ['ppm-as-potassium-benzoate'], '0.959326321395287 mg/kg', # potassium benzoate's molecular weight = 150.22
+        ['ppm-as-k-benzoate'], '0.959326321395287 mg/kg',
         ['ppm-as-calcium-benzoate'], '0.432574120647515 mg/kg', # calcium benzoate's molecular weight = 282.31
+        ['ppm-as-ca-benzoate'], '0.432574120647515 mg/kg',
     );
 
     my %args = @_;
@@ -67,8 +70,11 @@ sub convert_benzoate_unit {
             'ppm',
             'ppm-as-benzoic-acid',
             'ppm-as-sodium-benzoate',
+            'ppm-as-na-benzoate',
             'ppm-as-potassium-benzoate',
+            'ppm-as-k-benzoate',
             'ppm-as-calcium-benzoate',
+            'ppm-as-ca-benzoate',
         ) {
             push @rows, {
                 unit => $u,
